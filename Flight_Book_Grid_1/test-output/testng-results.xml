@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48292" started-at="2019-09-05T11:41:42Z" finished-at="2019-09-05T11:42:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48292" started-at="2019-09-05T11:41:42Z" finished-at="2019-09-05T11:42:30Z">
+      <class name="Flight_Booking.Two_Way_Booking">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Flight_Booking.Two_Way_Booking@42e26948]" name="setUp" is-config="true" duration-ms="7551" started-at="2019-09-05T11:41:42Z" finished-at="2019-09-05T11:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[param-val-not-found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search([Ljava.lang.String;)[pri:1, instance:Flight_Booking.Two_Way_Booking@42e26948]" name="search" duration-ms="37833" started-at="2019-09-05T11:41:50Z" data-provider="SearchProvider" finished-at="2019-09-05T11:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@71b3bc45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Flight_Booking.Two_Way_Booking@42e26948]" name="tearDown" is-config="true" duration-ms="1694" started-at="2019-09-05T11:42:28Z" finished-at="2019-09-05T11:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Flight_Booking.Two_Way_Booking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

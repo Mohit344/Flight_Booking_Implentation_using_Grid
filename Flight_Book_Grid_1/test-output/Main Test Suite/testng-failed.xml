@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]" parallel="tests">
+  <test thread-count="5" name="Grid chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Flight_Booking.Two_Way_Booking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Flight_Booking.Two_Way_Booking -->
+    </classes>
+  </test> <!-- Grid chrome Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
